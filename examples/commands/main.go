@@ -6,8 +6,8 @@ import (
 	"flag"
 	"log"
 
-	"github.com/bot-api/telegram"
-	"github.com/bot-api/telegram/telebot"
+	"github.com/yosh0/telegram"
+	"github.com/yosh0/telegram/telebot"
 	"golang.org/x/net/context"
 )
 

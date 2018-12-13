@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bot-api/telegram"
+	"github.com/yosh0/telegram"
 	"github.com/m0sth8/httpmock"
 	"golang.org/x/net/context"
 	"gopkg.in/stretchr/testify.v1/assert"

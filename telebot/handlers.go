@@ -1,7 +1,7 @@
 package telebot
 
 import (
-	"github.com/bot-api/telegram"
+	"github.com/yosh0/telegram"
 	"golang.org/x/net/context"
 )
 

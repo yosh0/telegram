@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/bot-api/telegram"
+	"github.com/yosh0/telegram"
 	"gopkg.in/stretchr/testify.v1/assert"
 )
 

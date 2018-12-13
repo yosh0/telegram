@@ -6,7 +6,7 @@ import (
 	"errors"
 	"net/url"
 
-	"github.com/bot-api/telegram"
+	"github.com/yosh0/telegram"
 )
 
 type valuesI interface {

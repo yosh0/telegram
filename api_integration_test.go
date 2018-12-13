@@ -12,7 +12,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/bot-api/telegram"
+	"github.com/yosh0/telegram"
 	"golang.org/x/net/context"
 	"golang.org/x/net/context/ctxhttp"
 	"gopkg.in/stretchr/testify.v1/assert"

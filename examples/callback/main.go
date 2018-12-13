@@ -8,8 +8,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/bot-api/telegram"
-	"github.com/bot-api/telegram/telebot"
+	"github.com/yosh0/telegram"
+	"github.com/yosh0/telegram/telebot"
 	"golang.org/x/net/context"
 )
 
@@ -64,6 +64,7 @@ func main() {
 			InlineKeyboard: telegram.NewVInlineKeyboard(
 				"sex:",
 				[]string{"Female", "Male"},
+				[]string{"female", "male"},
 				[]string{"female", "male"},
 			),
 		}

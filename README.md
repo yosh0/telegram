@@ -24,7 +24,7 @@ Also, this library handles errors more correctly at this time (telegram-bot-api 
 
 Get last telegram api:
  
-`go get github.com/bot-api/telegram`
+`go get github.com/yosh0/telegram`
 
 ## If you want to use telegram bot api directly:
 
@@ -37,7 +37,7 @@ import (
 	"log"
 	"flag"
 
-	"github.com/bot-api/telegram"
+	"github.com/yosh0/telegram"
 	"golang.org/x/net/context"
 )
 
@@ -96,8 +96,8 @@ import (
 	"flag"
 	"log"
 
-	"github.com/bot-api/telegram"
-	"github.com/bot-api/telegram/telebot"
+	"github.com/yosh0/telegram"
+	"github.com/yosh0/telegram/telebot"
 	"golang.org/x/net/context"
 )
 

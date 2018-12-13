@@ -3,8 +3,8 @@ package telebot_test
 import (
 	"testing"
 
-	"github.com/bot-api/telegram"
-	"github.com/bot-api/telegram/telebot"
+	"github.com/yosh0/telegram"
+	"github.com/yosh0/telegram/telebot"
 	"golang.org/x/net/context"
 	"gopkg.in/stretchr/testify.v1/assert"
 )

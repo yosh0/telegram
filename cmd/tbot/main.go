@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bot-api/telegram"
+	"github.com/yosh0/telegram"
 	"github.com/chzyer/readline"
 	"golang.org/x/net/context"
 )
