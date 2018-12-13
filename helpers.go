@@ -88,7 +88,17 @@ func NewHInlineKeyboard(prefix string, text []string, data []string) [][]InlineK
 // [ first  ]
 // [ second ]
 // [ third  ]
-func NewVInlineKeyboard(prefix string, text, url, data []string) [][]InlineKeyboardButton {
+func NewVInlineKeyboard(prefix string, text []string, data []string) [][]InlineKeyboardButton {
+	r := make([][]InlineKeyboardButton, len(text))
+	for i, button := range text {
+		r[i] = []InlineKeyboardButton{
+			{Text: button, CallbackData: prefix + data[i]},
+		}
+	}
+	return r
+}
+
+func NewUrlInlineKeyboard(prefix string, text, url, data []string) [][]InlineKeyboardButton {
 	r := make([][]InlineKeyboardButton, len(text))
 	for i, button := range text {
 		r[i] = []InlineKeyboardButton{
